@@ -1,0 +1,120 @@
+*{
+    padding: 0%;
+    margin: auto;
+}
+/* l'entête de la page*/
+header{
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    z-index: 20;
+    position:fixed;
+}
+header div{
+    width: 30%;
+    overflow: hidden;
+    margin-top: 5px;
+}
+header div img{
+    width: 40%;
+    height: 100px;
+    border-radius: 75px;
+    box-shadow: 1px 2px 5px rgb(0, 0, 10, 0.5);
+}
+header nav{
+    width: 60%;
+}
+header nav ul{
+    display: flex;
+    align-content: space-around;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    font-size: 1.9em;
+    color: white;
+    transition: 2s;
+}
+header nav ul li a:hover{
+    text-transform: uppercase;
+    border-top: 2px solid white;
+    color: white;
+    transition: 5s;
+}
+
+/* le pied de page*/
+footer{
+    background-color: lightblue;
+    text-align: center;
+    align-items: center;
+}
+footer ul{
+    display: flex;
+    padding: 10px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+}
+
+/* le contenaire de la page*/
+main{
+    width: 90%;
+    height: auto;
+}
+.bannière{
+    background: url("/fichiers/photos_produits/IMG_2529.JPG");
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.bannière h1{
+    text-transform: uppercase;
+    display: none;
+}
+.bannière p{
+    display: none;
+}
+
+.catalogue{
+    display: flex;
+    flex-wrap: wrap;
+}
+.carte{
+    width: 230px;
+    border-radius: 3%;
+    border: 1px solid red;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 6PX rgb(0, 0, 10, 0.5);
+}
+.carte:hover img{
+    transform: scale(1.1);
+    transition: 4s;
+}
+.carte a{
+    text-decoration: none;
+    color: black;
+}
+.carte img{
+    width: 100%;
+    border-radius: 3%;
+}
+footer  a img{
+    width: 35px;
+    
+}
